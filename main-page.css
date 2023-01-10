@@ -1,0 +1,190 @@
+.login-session-content{
+    margin-top: 10px;
+    width: 300px;
+    height: 30px;
+    background-color: rgb(68 104 123) ;
+    margin-left: 40%;
+    display: block;
+    border-radius: 15px;
+}
+.login-session-content h1{
+    font-size: 15px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    padding-top: 5px;
+}
+.login-session-content a{
+    display: flex;
+    transform: translateY(-160%);
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 67%;
+    color: white;
+    font-weight: bold;
+}
+.navbar{
+    background-color: #0d1d42;
+    overflow: hidden;
+    display: block;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+}
+
+.navbar a{
+    padding: 10px 20px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+}
+.navbar .navbar-content-text{
+    color:white;
+    font-size: 7px;
+    float: left;
+    text-align: center;
+    border: none;
+    display: inline-flex;
+    padding: 3px 20px;
+}
+.navbar .navbar-content-logout{
+    color:white;
+    font-size: 7px;
+    float: right;
+    text-align: center;
+    border: none;
+    display: inline-flex;
+    padding: 0px 20px;
+}
+.navbar .navbar-content a{
+    padding: 0px 20px !important;
+}
+.navbar .navbar-content-text h1{
+    opacity: 0.6;
+}
+html {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  html,
+  body,
+  #container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #container {
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+  }
+  
+  .panel,
+  .text > h1,
+  .text > h3,
+  .panel > div {
+    cursor: default;
+  }
+
+  .panel {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+  }
+  
+#one {
+    background: #111111 url('/informatii2.jpg') center/cover no-repeat;
+    left: 0;
+}
+  
+#two {
+    background: #333333 url('/Model 3d.jpg') center/cover no-repeat;
+    left: 50%;
+}
+  
+.text {
+    display: inline-block;
+    position: relative;
+    top: 37%;
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
+}
+  
+.text > h1 {
+    margin: -10px 0 0 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: 7em;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 12px #555555;
+    font-family:Arial, Helvetica, sans-serif;
+}
+  
+.text > h3 {
+    margin: 0;
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.7em;
+    opacity: 0.8;
+    font-family:Arial, Helvetica, sans-serif;
+}
+  
+  
+.bottom {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 62.5%;
+    height: 12%;
+    text-align: center;
+    border-bottom: 10px solid transparent;
+}
+  
+
+.bottom > a {
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    height: 80px;
+    padding: 9px 20px 10px;
+    border: 3px solid #D8334A;
+    border-radius: 400px;
+}
+  
+.bottom > a:hover {
+    background-color: #D8334A;
+}
+.button1{
+    margin-left: 150px;
+}
+.button2{
+    margin-left: 160px;
+}
+  
+@media (max-width:1200px) {
+    .text > h1 {font-size: 7em;} 
+}
+  
+@media (max-width:950px) {
+    .text > h1 {font-size: 5em;} 
+}

@@ -1,0 +1,82 @@
+body {
+   margin: 0;
+   transition: .5s all ease-in-out;
+   background-color: #fff;
+  }
+
+  .bodyAnimated {
+    transition: .5s all ease-in-out;
+    background-color: #000 !important;
+  }
+
+  .black-white-button {
+    padding: 15px 30px;
+    border: 1px solid #000;
+    border-radius: 30px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+  }
+
+  .black-white-button img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .black-white-button .text-button-mode {
+    color: #000;
+    margin: 0;
+  }
+
+  .disabled {
+    display: none;
+  }
+  
+  #main {
+    background-color: white;
+    min-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    transition: .5s all ease-in-out;
+  }
+  #title {
+    font-size: 600%;
+    text-align: center;
+  }
+  #subtitle {
+    text-align: center;
+    font-size: 175%;
+    padding-bottom: 15px;
+    margin-top: -10px;
+  }
+  #body-text {
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+  }  
+  #intro-text {
+    font-size: 120%;
+    padding-bottom: 30px;
+    text-align: justify;
+    color: #000;
+  }
+  #image-holder {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+  }
+  #image-holder-schema{
+      text-align: center;
+      width: 70%;
+      margin: none;
+  }
+  @media only screen and (max-width: 1024px) {
+    #image-holder-1{
+      width: 50vw;
+    }
+    
+  }
